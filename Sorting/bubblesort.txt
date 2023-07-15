@@ -1,4 +1,4 @@
-Bubble Sort Algorithm
+## Bubble Sort Algorithm
 
 1. Start looping with a variable called i from the end of the array towards the beginning
 2. Start an inner loop with a variable called j from the beginning until i-1
