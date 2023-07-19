@@ -1,0 +1,7 @@
+## Insertion Sort Algorithm
+
+1. Start by picking the second element in array
+2. Now compare the second element with the one before it and swap if necessary
+3. Continue to the next element and if it  is in the incorrect order, iterate through the sorted
+    portion (left side) to place the element in correct place
+4. Repeat until the array is sorted.
