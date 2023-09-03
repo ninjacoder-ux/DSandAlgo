@@ -1,0 +1,23 @@
+//Algo
+
+//Picking a pivot
+
+The runtime of quick sort depends in part on how one selects the pivot
+ideally the pivot should be chosen so that its roughly the median value in the data set you are sorting
+for simplicity we will always choose the pivot to be first element
+
+//Pivot Pseudocode
+
+It will accept three args : array , start and end index (default to 0 and array length - 1 resp )
+grab the pivot from start of array
+store the current pivot index in a variable
+loop through the array from the start until the end, if pivot is greater than current element, increment the
+pivot index variable and then swap the current element with the element at the pivot index. 
+swap the starting element with pivot index
+return the pivot index
+
+//quicksort Pseudocode
+call the pivot helper on the array
+when the helper returns you the updated pivot index, recursively call the pivot helper on the subarray to the
+left of that index and the subarray to the right of that index.
+your base case occurs when you consider a subarray with less than 2 elements.
